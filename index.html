@@ -1,22 +1,24 @@
 <HTML>
-	<head>
+	<head>		
+		<link rel="stylesheets" href="style.css">
 		<title>Mi primer WEB</title>
 	</head>
-		<body bgcolor="violet">
+		<body style="background-color:#E3924B">
 		<div id= = "una capa">
-			<h1>Ana Jazmin Ruiz Laces</h1>
+			<h1>Me llamo Ana Jazmín Ruiz Laces</h1>
 			
-			<p>Soy estudiante de 5to semestre de la carrera de ingenieria en computacion. 
+			<p style= "color:#323C99">Soy estudiante de 5to semestre de la carrera de ingenieria en computacion. 
 			En esta materia espero aprender y mejorar mis conocimientos sobre la creacion de sitios web. </p>
 			
 			<h4>Más sobre mi...</h4>
-			
-			<p>Me gusta muucho mucho ver anime y leer mangas, y por lo mismo tengo muuuy dificil decidir cuales son mis favoritos.
+			<img src="C:\Users\anaja\Desktop\HTML\img\dibu1.png" alt="7 de Marzo del 2023" width="308" height="259">
+			<p style="font-size:70%">Me gusta muucho mucho ver anime y leer mangas, y por lo mismo tengo muuuy dificil decidir cuales son mis favoritos.
 				<br>Mis colores favoritos son el azul y morado. Algunos de mis pasatiempos son jugar, dibujar y leer.
 				<br>Mi libro favorito es "Memorias de un amigo imaginario" del autor Matthew Dicks el cual trata acerca de Budo, el amigo imaginario de Max. y su vida como un ser imaginario.
-				<br>La frase que más recuerdo del libro es "Todos los monstruos son malos pero los mostruos que no se mueven ni hablan como monstruos son los peores de todos."</p>
+				<br>La frase que más recuerdo del libro es "Todos los monstruos son malos pero los mostruos que no se mueven ni hablan como monstruos son los peores de todos."
+			</p>
 			
-			<p>La siguiente es una lista de mis cantantes favoritos.</p>
+			<p style="font-size: 18px;">La siguiente es una lista de mis cantantes favoritos.</p>
 			
 			<ol> Cantantes favoritos
 				<li>Vocaloid</li>
@@ -73,27 +75,37 @@
 				
 			</table>
 		</div>
-		</body>
+		
+		<p>El siguiente es un vídeo de mi canal de youtube</p>		
 
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/nSBAJAXcE4U?si=TuWKfPdvsVPFHpI6">
+		</iframe>
+		
 		<p>Dejame un comentario :D</p>
-				<form action="/my-handling-form-page" method="post">
-				  <ul>
-				  
-					<li>
-					  <label for="name">Nombre:</label>
-					  <input type="text" id="name" name="user_name" />
-					</li>
-					<br>
-					<li>
-					  <label for="mail">Telefono:</label>
-					  <input type="telefono" id="tel" name="user_tel" />
-					</li>
-					<br>
-					<li>
-					  <label for="msg">Mensaje:</label>
-					  <textarea id="msg" name="user_message"></textarea>
-					</li>
-					
-				  </ul>
-				</form>	
+		<form action="/my-handling-form-page" method="post">
+		  <ul>
+		  
+			<li>
+			  <label for="name">Nombre:</label>
+			  <input type="text" id="name" name="user_name" />
+			</li>
+			
+			<br>
+			
+			<li>
+			  <label for="mail">Telefono:</label>
+			  <input type="telefono" id="tel" name="user_tel" />
+			</li>
+			
+			<br>
+			
+			<li>
+			  <label for="msg">Mensaje:</label>
+			  <textarea id="msg" name="user_message"></textarea>
+			</li>
+			
+		  </ul>
+		</form>
+		
+		</body>
 </HTML>
